@@ -50,7 +50,7 @@ public class Student {
         student1.setName(name);
 
         System.out.println("Nhap tuoi cua hoc sinh: ");
-        int age = scanner.nextInt();
+        int age = Integer.parseInt(scanner.nextLine());
         student1.setAge(age);
 
         System.out.printf("\n");
